@@ -375,10 +375,45 @@ function toggleBtnColumns(event) {
   document.querySelector('ketchup-btn').columns = event.target.value
 }
 
+function onBtnAlignChange(event) {
+  document.querySelector('ketchup-btn').align = event.target.value
+}
+
+function toggleBtnStyle() {
+  const bold = document.querySelector('#btn-fontbold').checked
+  const fontColor = document.querySelector('#btn-fontcolor').value
+  const font = document.querySelector('#btn-font').value
+
+  const btnStyle = {
+    bold
+  }
+
+  if (fontColor) {
+    btnStyle.fontColor = fontColor
+  }
+
+  if (font) {
+    btnStyle.fontName = font
+  }
+
+  document.querySelector('ketchup-btn').btnStyle = btnStyle
+}
+
 // cnd
 // countdown
 document.querySelector('ketchup-cnd').addEventListener('countdownEnded', () => {
-  const label = document.querySelector('#cnd-label')
-  console.log(label)
   document.querySelector('#cnd-label').style.display = 'inline-block'
 })
+
+// cal
+function toggleCalShowWeek(event) {
+  document.querySelector('ketchup-cal').showWeek = event.target.checked
+}
+
+function toggleCalShowNav(event) {
+  document.querySelector('ketchup-cal').showNavigation = event.target.checked
+}
+
+function onCalInitialDateChange(event) {
+  document.querySelector('ketchup-cal').initialDate = event.target.value
+}

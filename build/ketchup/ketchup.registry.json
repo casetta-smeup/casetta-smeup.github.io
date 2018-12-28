@@ -2,27 +2,32 @@
   "namespace": "ketchup",
   "fsNamespace": "ketchup",
   "loader": "../ketchup.js",
-  "core": "ketchup.wueg4tlh.js",
-  "corePolyfilled": "ketchup.qxcvgdx4.js",
+  "core": "ketchup.kgvq3w2b.js",
+  "corePolyfilled": "ketchup.mxam6lxp.js",
   "components": {
     "ketchup-btn": {
       "bundleIds": {
-        "$": "jxvc8fj4"
+        "$": "bblyphf8"
       }
     },
     "ketchup-button": {
       "bundleIds": {
-        "$": "jxvc8fj4"
+        "$": "bblyphf8"
+      }
+    },
+    "ketchup-cal": {
+      "bundleIds": {
+        "$": "y7af2zn7"
       }
     },
     "ketchup-cnd": {
       "bundleIds": {
-        "$": "tf349fzp"
+        "$": "odb4mr9t"
       }
     },
     "smeup-mat": {
       "bundleIds": {
-        "$": "4xwquvmm"
+        "$": "lp1bl44t"
       }
     }
   }
