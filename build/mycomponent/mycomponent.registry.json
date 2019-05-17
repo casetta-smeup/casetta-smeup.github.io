@@ -1,0 +1,87 @@
+{
+  "namespace": "mycomponent",
+  "fsNamespace": "mycomponent",
+  "loader": "../mycomponent.js",
+  "core": "mycomponent.rvt5f1yn.js",
+  "corePolyfilled": "mycomponent.d2uzopor.js",
+  "components": {
+    "ketchup-btn": {
+      "bundleIds": {
+        "$": "4zshbmet"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-button": {
+      "bundleIds": {
+        "$": "ygyun38z"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-chart": {
+      "bundleIds": {
+        "$": "2jv0hdlp"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-combo": {
+      "bundleIds": {
+        "$": "wxq47qqd"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-fld": {
+      "bundleIds": {
+        "$": "7yb9ieeq"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-html": {
+      "bundleIds": {
+        "$": "dijrvvsi"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-portal": {
+      "bundleIds": {
+        "$": "jhav6zig"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-portal-instance": {
+      "bundleIds": {
+        "$": "jhav6zig"
+      },
+      "encapsulation": "shadow"
+    },
+    "ketchup-radio": {
+      "bundleIds": {
+        "$": "v2ifhjum"
+      },
+      "encapsulation": "shadow"
+    },
+    "kup-data-table": {
+      "bundleIds": {
+        "$": "ghbe188f"
+      },
+      "encapsulation": "shadow"
+    },
+    "kup-paginator": {
+      "bundleIds": {
+        "$": "ghbe188f"
+      },
+      "encapsulation": "shadow"
+    },
+    "kup-text-input": {
+      "bundleIds": {
+        "$": "ghbe188f"
+      },
+      "encapsulation": "shadow"
+    },
+    "my-component": {
+      "bundleIds": {
+        "$": "bi9lqwhq"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}
