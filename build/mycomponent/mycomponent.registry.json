@@ -2,84 +2,84 @@
   "namespace": "mycomponent",
   "fsNamespace": "mycomponent",
   "loader": "../mycomponent.js",
-  "core": "mycomponent.rvt5f1yn.js",
-  "corePolyfilled": "mycomponent.d2uzopor.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "core": "mycomponent.core.js",
   "components": {
     "ketchup-btn": {
       "bundleIds": {
-        "$": "4zshbmet"
+        "$": "ketchup-btn"
       },
       "encapsulation": "shadow"
     },
     "ketchup-button": {
       "bundleIds": {
-        "$": "ygyun38z"
+        "$": "ketchup-button"
       },
       "encapsulation": "shadow"
     },
     "ketchup-chart": {
       "bundleIds": {
-        "$": "2jv0hdlp"
+        "$": "ketchup-chart"
       },
       "encapsulation": "shadow"
     },
     "ketchup-combo": {
       "bundleIds": {
-        "$": "wxq47qqd"
+        "$": "ketchup-combo"
       },
       "encapsulation": "shadow"
     },
     "ketchup-fld": {
       "bundleIds": {
-        "$": "7yb9ieeq"
+        "$": "ketchup-fld"
       },
       "encapsulation": "shadow"
     },
     "ketchup-html": {
       "bundleIds": {
-        "$": "dijrvvsi"
+        "$": "ketchup-html"
       },
       "encapsulation": "shadow"
     },
     "ketchup-portal": {
       "bundleIds": {
-        "$": "jhav6zig"
+        "$": "ketchup-portal"
       },
       "encapsulation": "shadow"
     },
     "ketchup-portal-instance": {
       "bundleIds": {
-        "$": "jhav6zig"
+        "$": "ketchup-portal"
       },
       "encapsulation": "shadow"
     },
     "ketchup-radio": {
       "bundleIds": {
-        "$": "v2ifhjum"
+        "$": "ketchup-radio"
       },
       "encapsulation": "shadow"
     },
     "kup-data-table": {
       "bundleIds": {
-        "$": "ghbe188f"
+        "$": "kup-data-table"
       },
       "encapsulation": "shadow"
     },
     "kup-paginator": {
       "bundleIds": {
-        "$": "ghbe188f"
+        "$": "kup-data-table"
       },
       "encapsulation": "shadow"
     },
     "kup-text-input": {
       "bundleIds": {
-        "$": "ghbe188f"
+        "$": "kup-data-table"
       },
       "encapsulation": "shadow"
     },
     "my-component": {
       "bundleIds": {
-        "$": "bi9lqwhq"
+        "$": "my-component"
       },
       "encapsulation": "shadow"
     }

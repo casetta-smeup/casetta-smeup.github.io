@@ -454,6 +454,8 @@ function createDataForPagination(colSize, rowSize) {
         },
     };
     pagination.config = {
+        showFilter: true,
+        globalFilter: true,
         rowsPerPage: 20,
     };
 }
