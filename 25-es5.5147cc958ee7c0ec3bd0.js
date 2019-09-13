@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[25,26],{J5MO:function n(i,o,u){"use strict";var c;u.d(o,"a",function(){return c}),function(n){n.SIMPLE="simple",n.FULL="full"}(c||(c={}))}}]);
