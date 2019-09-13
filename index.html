@@ -1,14 +1,33 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>ketchup-showcase</title><script src=https://www.gstatic.com/charts/loader.js></script><script>if (google) {
-        google.charts.load('45.2', {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SmeupGraf</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script>
+      if (google) {
+        google.charts.load("45.2", {
           packages: [
-            'corechart',
-            'gantt',
-            'gauge',
-            'geochart',
-            'calendar',
-            'sankey',
-            'treemap',
+            "corechart",
+            "gantt",
+            "gauge",
+            "geochart",
+            "calendar",
+            "sankey",
+            "treemap"
           ],
-          language: 'en',
+          language: "en"
         });
-      }</script><link href=css/chunk-0bdb666b.42011836.css rel=prefetch><link href=css/chunk-0d682d65.4c53ccfd.css rel=prefetch><link href=css/chunk-18cba113.270fec62.css rel=prefetch><link href=css/chunk-1b367976.97508577.css rel=prefetch><link href=css/chunk-1d239c80.68495894.css rel=prefetch><link href=css/chunk-2633a302.f598f8d3.css rel=prefetch><link href=css/chunk-2d665c5a.db5f2d4b.css rel=prefetch><link href=css/chunk-3e6aede6.942d794a.css rel=prefetch><link href=css/chunk-455e5a56.8b050c10.css rel=prefetch><link href=css/chunk-4807e3aa.5447abd1.css rel=prefetch><link href=css/chunk-482d7920.778c080d.css rel=prefetch><link href=css/chunk-4a53edc8.e705116a.css rel=prefetch><link href=css/chunk-61658a77.d7a1b7c7.css rel=prefetch><link href=css/chunk-6f5a1868.d874fea9.css rel=prefetch><link href=css/chunk-8fef5c00.e295a5c5.css rel=prefetch><link href=css/chunk-91507da2.5eae34a7.css rel=prefetch><link href=css/chunk-a169bad2.f4e8232c.css rel=prefetch><link href=css/chunk-a73791b0.b1736de3.css rel=prefetch><link href=css/chunk-bb9704c6.7c1c75bb.css rel=prefetch><link href=css/chunk-eb99b57c.b91b2f0a.css rel=prefetch><link href=js/chunk-0850252c.6504ae16.js rel=prefetch><link href=js/chunk-0b5d1740.494ff819.js rel=prefetch><link href=js/chunk-0bdb666b.5e805c55.js rel=prefetch><link href=js/chunk-0d682d65.4bc60472.js rel=prefetch><link href=js/chunk-0f495f76.be5ca411.js rel=prefetch><link href=js/chunk-12ebfbc5.cc054f12.js rel=prefetch><link href=js/chunk-18cba113.6de32bdf.js rel=prefetch><link href=js/chunk-1b367976.2c93803e.js rel=prefetch><link href=js/chunk-1d239c80.1108b382.js rel=prefetch><link href=js/chunk-1f9f1aba.b083035c.js rel=prefetch><link href=js/chunk-244f09fc.39ae7e28.js rel=prefetch><link href=js/chunk-252bfd4e.3445f84e.js rel=prefetch><link href=js/chunk-2633a302.67e6fabd.js rel=prefetch><link href=js/chunk-28ab169b.1f4c59a5.js rel=prefetch><link href=js/chunk-2d0a35c5.dea47df7.js rel=prefetch><link href=js/chunk-2d0b6386.1d10c18d.js rel=prefetch><link href=js/chunk-2d0bcef1.33d435fd.js rel=prefetch><link href=js/chunk-2d0c11f5.2cfd87b3.js rel=prefetch><link href=js/chunk-2d0d7112.ff076c5d.js rel=prefetch><link href=js/chunk-2d0de555.95528d78.js rel=prefetch><link href=js/chunk-2d0e5b8e.cd7b3294.js rel=prefetch><link href=js/chunk-2d0e8c23.0c03dc6f.js rel=prefetch><link href=js/chunk-2d0f0fbf.446d29e0.js rel=prefetch><link href=js/chunk-2d2095eb.bcc78966.js rel=prefetch><link href=js/chunk-2d20ed98.5b4c9477.js rel=prefetch><link href=js/chunk-2d20f2f8.bea2eb6d.js rel=prefetch><link href=js/chunk-2d2138af.995beca3.js rel=prefetch><link href=js/chunk-2d21a77b.d9a5b3f7.js rel=prefetch><link href=js/chunk-2d221d87.703a4d3f.js rel=prefetch><link href=js/chunk-2d225871.8d964695.js rel=prefetch><link href=js/chunk-2d229447.38d9f7bd.js rel=prefetch><link href=js/chunk-2d665c5a.cc939b88.js rel=prefetch><link href=js/chunk-2dd25bfc.7f259fe7.js rel=prefetch><link href=js/chunk-30407e2d.0969ec7e.js rel=prefetch><link href=js/chunk-3e6aede6.4529ee80.js rel=prefetch><link href=js/chunk-3f2e21b6.34b53658.js rel=prefetch><link href=js/chunk-455e5a56.ed4bd6d9.js rel=prefetch><link href=js/chunk-4807e3aa.87c499f9.js rel=prefetch><link href=js/chunk-482d7920.f5adcfb1.js rel=prefetch><link href=js/chunk-4a53edc8.168790a2.js rel=prefetch><link href=js/chunk-4eb4fe7d.d85c6ea0.js rel=prefetch><link href=js/chunk-4f18547c.a3991ebe.js rel=prefetch><link href=js/chunk-544f4936.281f9c24.js rel=prefetch><link href=js/chunk-54da44c2.d8ae586c.js rel=prefetch><link href=js/chunk-56df0122.f3f22ed3.js rel=prefetch><link href=js/chunk-5ab2c226.8b2c5d7a.js rel=prefetch><link href=js/chunk-61658a77.679c4be4.js rel=prefetch><link href=js/chunk-668a13a5.daa4b396.js rel=prefetch><link href=js/chunk-6d546844.a1fbca41.js rel=prefetch><link href=js/chunk-6edc9867.23387c9c.js rel=prefetch><link href=js/chunk-6f5a1868.5b4a90c2.js rel=prefetch><link href=js/chunk-76c22b3a.dcda995b.js rel=prefetch><link href=js/chunk-78cf0641.0bf6677e.js rel=prefetch><link href=js/chunk-798c234e.36e70e1f.js rel=prefetch><link href=js/chunk-8dab00ac.84ef817b.js rel=prefetch><link href=js/chunk-8fef5c00.7bbf3f48.js rel=prefetch><link href=js/chunk-91507da2.399ca789.js rel=prefetch><link href=js/chunk-a169bad2.d8d4ac9d.js rel=prefetch><link href=js/chunk-a501e962.ab3db24c.js rel=prefetch><link href=js/chunk-a73791b0.2765d037.js rel=prefetch><link href=js/chunk-b1a11ab6.c0986f8d.js rel=prefetch><link href=js/chunk-b2af8514.eaa22e3f.js rel=prefetch><link href=js/chunk-bb9704c6.26410e85.js rel=prefetch><link href=js/chunk-d5bca102.dadba6d4.js rel=prefetch><link href=js/chunk-de838bd8.a688a1c3.js rel=prefetch><link href=js/chunk-e348c4ae.c82353fb.js rel=prefetch><link href=js/chunk-eb99b57c.df1b6b6d.js rel=prefetch><link href=js/chunk-ef1ff088.f354eea4.js rel=prefetch><link href=css/app.de37296e.css rel=preload as=style><link href=css/chunk-vendors.59619788.css rel=preload as=style><link href=js/app.c0d27518.js rel=preload as=script><link href=js/chunk-vendors.6d5f19b0.js rel=preload as=script><link href=css/chunk-vendors.59619788.css rel=stylesheet><link href=css/app.de37296e.css rel=stylesheet></head><body><noscript><strong>We're sorry but ketchup-showcase doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.6d5f19b0.js></script><script src=js/app.c0d27518.js></script></body></html>
+      }
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+  <script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="runtime-es2015.js" type="module"></script><script src="vendor-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es5.js" nomodule defer></script></body>
+</html>
